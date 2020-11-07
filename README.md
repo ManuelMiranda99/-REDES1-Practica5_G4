@@ -33,6 +33,7 @@ Vlan que se deben crear:
   
 ### Configurando el protocolo EIGRP  router2
 comandos a utilizar:
+
     - conf t
     - router eigrp 10
     - network 10.10.0.0 0.0.0.255
@@ -43,7 +44,8 @@ comandos a utilizar:
   [![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/show_eigrp_router1.png)]()
     
  ### Configurando el protocolo EIGRP  router3
-    - conf t
+ 
+    - conf t 
     - router eigrp 10
     - network 10.10.0.0 0.0.0.255
     - network 20.10.0.0 0.0.0.255
@@ -53,51 +55,57 @@ comandos a utilizar:
  [![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/show_eigrp_router2.png)]()
 ### Configurando el protocolo EIGRP  router4 
 
-- conf t
-- router eigrp 10
-- network 10.10.0.0 0.0.0.255
-- network 20.10.0.0 0.0.0.255
-- network 192.168.15.0 0.0.0.255
-- end
+    - conf t
+    - router eigrp 10
+    - network 10.10.0.0 0.0.0.255
+    - network 20.10.0.0 0.0.0.255
+    - network 192.168.15.0 0.0.0.255
+    - end
 
 [![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/show_eigrp_router2.png)]()
 
 ### Configurando el protocolo VRRP en el router 3
 
--conf t
--vrrp 10
--vrrp 10 ip 192.168.15.3
--vrrp 10 priority 120
--vrrp 10 preempt
--end
+    -conf t
+    -vrrp 10
+    -vrrp 10 ip 192.168.15.3
+    -vrrp 10 priority 120
+    -vrrp 10 preempt
+    -end
+    
 ### Configurando el protocolo VRRP en el router 4
--conf t
--vrrp 10
--vrrp 10 ip 192.168.15.3
--vrrp 10 priority 100
--end
+    -conf t
+    -vrrp 10
+    -vrrp 10 ip 192.168.15.3
+    -vrrp 10 priority 100
+    -end
 
 ## Configuracion de VLANS en el Etherswitch de la topologia 1 y 2
- Se utilizo los siguientes comandos para configurar las vlans
- - conf term
- - vlan 70
- - name PROFESORES
+ Se utilizo los siguientes comandos para configurar las vlans:
+ 
+    - conf term
+    - vlan 20
+    - name PROFESORES
+     vlan 50
+    - name ESTUDIANTES
+     vlan 70
+    - name INVITADOS
  
 [![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/conf_vlan_topo1.png)]()
 
 ### Configurar los puertos en el Etherswitch en modo truncal en ambas topologias
-  - conf term
-  - int range fa 1/0 - 15
-  - speed 100
-  - duplex full
-  - switchport mode trunk
-  - end
-  - wr
+      - conf term
+      - int range fa 1/0 - 15
+      - speed 100
+      - duplex full
+      - switchport mode trunk
+      - end
+      - wr
   
 [![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/conf_puertos_trunk_topo1.png)]()
  
 ### Configurar los puertos en modo acceso y truncal para la comunicacion entre vlans
 
-[![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/conf_puertos_switc.png)]()
+[![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/conf_puertos_switch.png)]()
 
   
