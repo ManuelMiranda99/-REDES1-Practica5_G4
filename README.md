@@ -1,6 +1,6 @@
 [REDES1]Practica5_G4
 # Redes1-Practica5
-Manual de usuario - Practica 2
+Manual de usuario - Practica 5
 Esta practica del curso de REDES 1, contiene 2 topologias, que consiste en crear y configurar distintas topologías de red según los requermientos y
 conectarlas de manera remota por medio de una VPN
 
@@ -9,7 +9,8 @@ La primera topolomia contiene:
   - 1 router modelo c3725
   - 1 ethernetswitch 
   - 2 switch 
- [![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/topo1.png)]()
+  
+[![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/topo1.png)]()
 
 La segunda topologia contiene:
   - 1 cliente windows xp
@@ -17,7 +18,9 @@ La segunda topologia contiene:
   - 3 router modelo c3725
   - 1 ethernetswitch 
   - 2 switch 
-  [![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/topo2.png)]()
+  
+[![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/topo2.png)]()
+
 Cantidad de host requeridos por demartamento en la infraestructura:
   - Departamento de profesores 34 host
   - Departamento de estudiantes 64
@@ -37,7 +40,7 @@ comandos a utilizar:
     - network 192.168.15.0 0.0.0.255
     - end
     
- [![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/show_eigrp_router1.png)]()
+  [![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/show_eigrp_router1.png)]()
     
  ### Configurando el protocolo EIGRP  router3
     - conf t
@@ -47,7 +50,7 @@ comandos a utilizar:
     - network 192.168.15.0 0.0.0.255
     - end
     
-   [![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/show_eigrp_router2.png)]()
+ [![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/show_eigrp_router2.png)]()
 ### Configurando el protocolo EIGRP  router4 
 
 - conf t
@@ -56,7 +59,9 @@ comandos a utilizar:
 - network 20.10.0.0 0.0.0.255
 - network 192.168.15.0 0.0.0.255
 - end
+
 [![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/show_eigrp_router2.png)]()
+
 ### Configurando el protocolo VRRP en el router 3
 
 -conf t
@@ -77,7 +82,9 @@ comandos a utilizar:
  - conf term
  - vlan 70
  - name PROFESORES
- [![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/conf_vlan_topo1.png)]()
+ 
+[![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/conf_vlan_topo1.png)]()
+
 ### Configurar los puertos en el Etherswitch en modo truncal en ambas topologias
   - conf term
   - int range fa 1/0 - 15
@@ -87,9 +94,10 @@ comandos a utilizar:
   - end
   - wr
   
-  [![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/conf_puertos_trunk_topo1.png)]()
+[![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/conf_puertos_trunk_topo1.png)]()
  
 ### Configurar los puertos en modo acceso y truncal para la comunicacion entre vlans
+
 [![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/conf_puertos_switc.png)]()
 
   
