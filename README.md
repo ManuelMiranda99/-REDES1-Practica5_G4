@@ -1,6 +1,25 @@
-[REDES1]Practica5_G4
-# Redes1-Practica5
-Manual de usuario - Practica 5
+# Práctica 5
+
+**Universidad de San Carlos de Guatemala**
+
+**Facultad de Ingeniería**
+
+**Escuela de Ciencias y Sistemas**
+
+**Redes de Computadoras 1**
+
+**Ing. Pedro Pablo Hernandez Ramirez**
+
+**Aux. Andrés Alejandro Montufar Cordero**
+
+**Angel Manuel Miranda Asturias 201807394**
+
+**Julian Isaac Maldonado Lopez 201806839**
+
+**Kelvin Vásquez Gómez 201212490**
+
+# Manual de Configuración
+
 Esta practica del curso de REDES 1, contiene 2 topologias, que consiste en crear y configurar distintas topologías de red según los requermientos y
 conectarlas de manera remota por medio de una VPN
 
