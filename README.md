@@ -50,6 +50,10 @@ Vlan que se deben crear:
   - VLAN 50 para los estudiantes
   - VLAN 70 para los invitados
   
+### Calculo de busredes utilizando la direccion de red 192.168.0.0/24
+
+[![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/calculo_subredes.jpeg)]()
+
 ### Configurando el protocolo EIGRP  router2
 comandos a utilizar:
 
