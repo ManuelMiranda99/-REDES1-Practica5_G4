@@ -149,6 +149,21 @@ comandos a utilizar:
  ### Configuracion EIGRP del router 3
 [![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/eigrp.jpeg)]()
 
+ ### Topologia Final
+[![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/topo2.jpeg)]()
+
+
+ ### Configuracion interface router 1
+[![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/sh-int-brief.jpeg)]()
+
+
+ ### Configuracion interface router 2
+[![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/sh-int-brin2.jpeg)]()
+
+
+ ### Configuracion ruteo estatico
+[![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/ip-fow3.jpeg)]()
+
 
 
 
