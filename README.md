@@ -131,4 +131,8 @@ comandos a utilizar:
 
 [![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/conf_puertos_switch.png)]()
 
+### Configuracion del protocolo EIGRP
+[![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/eigrp2-10.jpeg)]()
+
+  
   
