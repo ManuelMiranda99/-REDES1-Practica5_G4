@@ -134,5 +134,24 @@ comandos a utilizar:
 ### Configuracion del protocolo EIGRP
 [![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/eigrp2-10.jpeg)]()
 
+ 
+ ### Configuracion de VLAN en SWT2
+[![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/show-vlan.jpeg)]()
+
+
+ ### Configuracion interfaces router 3 con protocolo vrrp
+[![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/vrrp.jpeg)]()
+
+ ### Configuracion interfaces router 4 con protocolo vrrp
+[![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/sh-runn.jpeg)]()
+
+
+ ### Configuracion EIGRP del router 3
+[![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/eigrp.jpeg)]()
+
+
+
+
+
   
   
