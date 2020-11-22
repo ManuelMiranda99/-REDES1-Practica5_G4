@@ -18,7 +18,7 @@
 
 **Kelvin Vásquez Gómez 201212490**
 
-# Manual de Configuración
+# Manual de Configuración y Comandos
 
 Esta practica del curso de REDES 1, contiene 2 topologias, que consiste en crear y configurar distintas topologías de red según los requermientos y
 conectarlas de manera remota por medio de una VPN
@@ -164,9 +164,12 @@ comandos a utilizar:
  ### Configuracion ruteo estatico
 [![Image from Gyazo](https://github.com/kevgoz/img_p5_redes/blob/master/ip-fow3.jpeg)]()
 
+# Captura de Paquetes
 
+Para la captura de paquetes se cuenta con dos capturas de pantalla. Una para demostrar la comunicación entre los dos routers. Por lo que se observa en la imagen, los routers de las distintas topologías están en constante comunicación. Lo cual es algo bastante interesante.
 
+[![Captura de Paquetes 1](https://i.ytimg.com/vi/sJrDZ9q8qsY/hqdefault.jpg)]()
 
+Para la segunda captura, se realizó ping de un cliente de la topología 1 a otro de la topología 2. Como se muestra la comunicación si se esta dando también entre clientes de cada topología.
 
-  
-  
+[![Captura de Paquetes 2](https://i.ytimg.com/vi/sJrDZ9q8qsY/hqdefault.jpg)]()
