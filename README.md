@@ -168,8 +168,8 @@ comandos a utilizar:
 
 Para la captura de paquetes se cuenta con dos capturas de pantalla. Una para demostrar la comunicación entre los dos routers. Por lo que se observa en la imagen, los routers de las distintas topologías están en constante comunicación. Lo cual es algo bastante interesante.
 
-[![Captura de Paquetes 1](https://i.ytimg.com/vi/sJrDZ9q8qsY/hqdefault.jpg)]()
+[![Captura de Paquetes 1](https://github.com/ManuelMiranda99/-REDES1-Practica5_G4/blob/main/imas/Paquetes1.png)]()
 
 Para la segunda captura, se realizó ping de un cliente de la topología 1 a otro de la topología 2. Como se muestra la comunicación si se esta dando también entre clientes de cada topología.
 
-[![Captura de Paquetes 2](https://i.ytimg.com/vi/sJrDZ9q8qsY/hqdefault.jpg)]()
+[![Captura de Paquetes 2](https://github.com/ManuelMiranda99/-REDES1-Practica5_G4/blob/main/imas/Paquetes2.png)]()
